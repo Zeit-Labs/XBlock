@@ -7,14 +7,28 @@ These are notable changes in XBlock.
 Unreleased
 ----------
 
+1.8.2 - Unreleased
+------------------
+
+* Removed deprecations
+* xblock.fragment (removed completely)
+* xblock.runtime.Runtime._aside_from_xml (just the id_generator argument)
+* xblock.runtime.Runtime._usage_id_from_node (just the id_generator argument)
+* xblock.runtime.Runtime.add_node_as_child (just the id_generator argument)
+* xblock.runtime.Runtime.parse_xml_string (just the id_generator argument)
+* xblock.runtime.Runtime.parse_xml_file (just the id_generator argument)
+
+1.8.1 - 2023-10-07
+------------------
+
+* Python Requirements Update by @edx-requirements-bot in #674
+* Update setup.py, adds required packages by @farhan in #677
 
 1.8.0 - 2023-09-25
 ------------------
 * Added `xblock-utils <https://github.com/openedx/xblock-utils>`_ repository code into this repository along with docs.
-
-  * Docs moved into the docs/ directory.
-
-  * See https://github.com/openedx/xblock-utils/issues/197 for more details.
+* Docs moved into the docs/ directory.
+* See https://github.com/openedx/xblock-utils/issues/197 for more details.
 
 1.7.0 - 2023-08-03
 ------------------

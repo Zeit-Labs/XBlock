@@ -97,7 +97,7 @@ class ToyRuntime(Runtime):
     # pylint: disable=abstract-method
 
     def __init__(self, user_id=None):
-        super().__init__(ID_MANAGER, services={'field-data': KvsFieldData(TOYRUNTIME_KVS)})
+        super().__init__(ID_MANAGER, ID_MANAGER, services={'field-data': KvsFieldData(TOYRUNTIME_KVS)})
         self.id_generator = ID_MANAGER
         self.user_id = user_id
 

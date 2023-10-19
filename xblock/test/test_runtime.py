@@ -15,8 +15,7 @@ from xblock.exceptions import (
     NoSuchHandlerError,
     NoSuchServiceError,
     NoSuchUsage,
-    NoSuchViewError,
-    FieldDataDeprecationWarning,
+    NoSuchViewError
 )
 from xblock.fields import BlockScope, Scope, String, ScopeIds, List, UserScope, Integer
 from xblock.runtime import (
@@ -29,7 +28,7 @@ from xblock.runtime import (
 )
 from xblock.field_data import DictFieldData, FieldData
 
-from xblock.test.tools import unabc, WarningTestMixin, TestRuntime
+from xblock.test.tools import unabc, TestRuntime
 
 
 class TestMixin:
@@ -648,28 +647,6 @@ class TestRuntimeGetBlock(TestCase):
         # If we don't have a definition, then the usage doesn't exist
         with self.assertRaises(NoSuchUsage):
             self.runtime.get_block(self.usage_id)
-
-
-class TestRuntimeDeprecation(WarningTestMixin, TestCase):
-    """
-    Tests to make sure that deprecated Runtime apis stay usable,
-    but raise warnings.
-    """
-
-    def test_passed_field_data(self):
-        field_data = Mock(spec=FieldData)
-        with self.assertWarns(FieldDataDeprecationWarning):
-            runtime = TestRuntime(Mock(spec=IdReader), field_data)
-        with self.assertWarns(FieldDataDeprecationWarning):
-            self.assertEqual(runtime.field_data, field_data)
-
-    def test_set_field_data(self):
-        field_data = Mock(spec=FieldData)
-        runtime = TestRuntime(Mock(spec=IdReader), None)
-        with self.assertWarns(FieldDataDeprecationWarning):
-            runtime.field_data = field_data
-        with self.assertWarns(FieldDataDeprecationWarning):
-            self.assertEqual(runtime.field_data, field_data)
 
 
 class RuntimeWithCustomCSS(TestRuntime):  # pylint: disable=abstract-method
