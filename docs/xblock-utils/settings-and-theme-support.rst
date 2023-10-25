@@ -145,7 +145,7 @@ specified via settings.
 -  ``include_theme_files(fragment)`` - this method is an entry point to
    ``ThemableXBlockMixin`` functionality. It calls ``get_theme`` to
    obtain theme configuration, fetches theme files and includes them
-   into fragment. ``fragment`` must be an
+   into fragment. ``fragment`` must be a
    `web_fragments.fragment <https://github.com/openedx/web-fragments/blob/master/web_fragments/fragment.py>`__
    instance.
 

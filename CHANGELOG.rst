@@ -7,7 +7,7 @@ These are notable changes in XBlock.
 Unreleased
 ----------
 
-1.8.2 - Unreleased
+2.0.0 - Unreleased
 ------------------
 
 * Removed deprecations
