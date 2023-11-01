@@ -121,4 +121,4 @@ For more information about working with components in Studio, see
 :ref:`opencoursestaff:Developing Course Components` in the *Building and
 Running an Open edX* guide.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

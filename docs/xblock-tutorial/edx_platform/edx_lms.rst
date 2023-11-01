@@ -173,4 +173,4 @@ in order to observe the translated strings for your chosen locale.
     matched by the LMS, and even if matches are found, the translations may be
     incorrect in the context of your specific XBlock.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

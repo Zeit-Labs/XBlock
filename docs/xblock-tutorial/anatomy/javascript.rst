@@ -1,8 +1,8 @@
 .. _The XBlock JavaScript File:
 
-###########################
+##########################
 The XBlock JavaScript File
-###########################
+##########################
 
 This section of the tutorial walks through the JavaScript file, `thumbs.js`_,
 that is part of the Thumbs XBlock in the XBlock SDK.
@@ -45,4 +45,4 @@ Note the following details about the JavaScript file.
 The XBlock JavaScript code can also use the ``children`` and ``childMap``
 functions as needed. For more information, see :ref:`XBlock Children`.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

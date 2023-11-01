@@ -1,8 +1,8 @@
 .. _The XBlock Stylesheets:
 
-#######################
+######################
 The XBlock Stylesheets
-#######################
+######################
 
 This section of the tutorial walks through the CSS file, `thumbs.css`_,  that
 is part of the Thumbs XBlock in the XBlock SDK.
@@ -19,4 +19,4 @@ application.
 The styles in ``thumbs.css`` are referenced in the :ref:`XBlock HTML file <The
 XBlock HTML File>`.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

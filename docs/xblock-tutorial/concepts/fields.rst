@@ -1,8 +1,8 @@
 .. _XBlock Fields:
 
-####################
+#############
 XBlock Fields
-####################
+#############
 
 You use XBlock fields to store state data for your XBlock.
 
@@ -256,20 +256,20 @@ You can customize the OLX representation of the XBlock by using the
 
 .. add links to api doc
 
-*********************************************
+**************************************
 Field Requirements in the edX Platform
-*********************************************
+**************************************
 
 For information about field requirements in the edX Platform, see :ref:`edX LMS
 <EdX Learning Management System as an XBlock Runtime>` and
 :ref:`edX Studio <EdX Studio as an XBlock Runtime>`.
 
-*********************************************
+******************************
 Default Fields in a New XBlock
-*********************************************
+******************************
 
 When you create a new XBlock, the ``count`` field is added to the Python file
 by default. This field is for demonstration purposes and you should replace it
 with your own field definitions.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

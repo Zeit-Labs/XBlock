@@ -83,4 +83,4 @@ You can explore the other example XBlocks in the XBlock SDK.
 * Several `Content XBlocks`_
 * Several `Structure XBlocks`_
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

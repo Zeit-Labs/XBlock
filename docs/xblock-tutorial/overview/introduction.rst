@@ -115,4 +115,4 @@ You must design your XBlock to meet two criteria.
   to combine different XBlocks in flexible ways.
 
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

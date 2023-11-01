@@ -1,8 +1,8 @@
 .. _XBlock Concepts:
 
-####################
+###############
 XBlock Concepts
-####################
+###############
 
 You build XBlocks that course teams use to create independent course components
 that work seamlessly with other components in an online course. For example,

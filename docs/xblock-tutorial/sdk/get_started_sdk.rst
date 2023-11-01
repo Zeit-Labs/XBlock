@@ -1,6 +1,6 @@
-########################################
+###################################
 Getting Started with the XBlock SDK
-########################################
+###################################
 
 This section describes how to get started with the XBlock SDK.
 
@@ -18,4 +18,4 @@ This section describes how to get started with the XBlock SDK.
 
 .. include:: ../reusable/run_server.rst
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

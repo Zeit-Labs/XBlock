@@ -1,8 +1,8 @@
 .. _The XBlock HTML File:
 
-#######################
+####################
 The XBlock HTML File
-#######################
+####################
 
 This section of the tutorial walks through the HTML file, `thumbs.html`_,  that
 is part of the Thumbs XBlock in the XBlock SDK.
@@ -26,4 +26,4 @@ Note the following details about the HTML file.
 * The values ``self.upvotes`` and ``self.downvotes`` reference the fields in
   the XBlock Python class.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

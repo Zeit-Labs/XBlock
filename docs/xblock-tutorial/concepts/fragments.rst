@@ -1,8 +1,8 @@
 .. _XBlock Fragments:
 
-####################
+################
 XBlock Fragments
-####################
+################
 
 A fragment is a part of a web page returned by an XBlock view method. 
 
@@ -101,4 +101,4 @@ CSS strings generated from the XBlock's static files.
 
   TBP
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

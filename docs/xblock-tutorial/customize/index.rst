@@ -22,4 +22,4 @@ For more information about the different components of an XBlock, see
    custom-javascript
    custom-stylesheets
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

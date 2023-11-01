@@ -103,4 +103,4 @@ have a ``has_score`` variable set to ``True``.
 
     has_score = True
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

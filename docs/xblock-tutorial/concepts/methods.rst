@@ -1,8 +1,8 @@
 .. _XBlock Methods:
 
-####################
+##############
 XBlock Methods
-####################
+##############
 
 You use XBlock methods in the XBlock Python file to define the behavior of your
 XBlock.
@@ -13,9 +13,9 @@ XBlock.
    
 .. _View Methods:
 
-***************
+************
 View Methods
-***************
+************
 
 XBlock view methods are Python methods invoked by the XBlock runtime to render
 the XBlock.
@@ -97,9 +97,9 @@ handler for voting.
 
         return {'up': self.upvotes, 'down': self.downvotes}
 
-*********************************************
+*******************************
 Default Methods in a New XBlock
-*********************************************
+*******************************
 
 When you create a new XBlock, two methods are added automatically.
 
@@ -113,4 +113,4 @@ When you create a new XBlock, two methods are added automatically.
   This method is for demonstration purposes and you can remove it.
 
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

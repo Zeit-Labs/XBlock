@@ -8,9 +8,13 @@ GitHub.
 
 https://github.com/openedx/edx-documentation/tree/master/en_us/xblock-tutorial/source
 
-The edX documentation team welcomes contributions from Open edX community
-members. You can find guidelines for how to `contribute to edX Documentation`_
-in the GitHub edx/edx-documentation repository.
 
-.. include:: ../../../links/links.rst
+The Open edX community welcomes contributions from other Open edX community
+members. You can find guidelines for how to `contribute to Open edX documentation`_
+in the GitHub openedx/docs.openedx.org repository - although note that these
+specific docs are authored in the openedx/XBlock repository.
+
+.. _contribute to Open edX documentation: https://github.com/openedx/docs.openedx.org#readme
+
+.. include:: ../../links.rst
 

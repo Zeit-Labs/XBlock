@@ -1,8 +1,8 @@
 .. _XBlock Runtimes:
 
-####################
+###############
 XBlock Runtimes
-####################
+###############
 
 An XBlock runtime is the application that hosts XBlock. For example, the XBlock
 SDK, the :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>`,
@@ -14,9 +14,9 @@ URL.
  :local:
  :depth: 1
 
-******************
+*****************
 Runtime Functions
-******************
+*****************
 
 An XBlock runtime application performs the following functions.
 
@@ -32,9 +32,9 @@ An XBlock runtime application performs the following functions.
 * Route handler requests from the client-side XBlock to the server-side
   handlers.
 
-******************
+*****************
 Extending XBlocks
-******************
+*****************
 
 A runtime application can have mixin classes that it combines with your XBlock
 class. Therefore, your instances of your XBlock might be subclasses of your
@@ -44,9 +44,9 @@ By using mixins, a runtime application can add field data and methods to all
 XBlocks that it hosts, without requiring that XBlocks themselves are aware of
 the runtime they are being hosted in.
 
-********************
+*******************
 JavaScript Runtimes
-********************
+*******************
 
 The application that runs XBlocks uses a JavaScript runtime to load XBlocks.
 Specifically, the JavaScript runtime provides the following functions to
@@ -58,9 +58,9 @@ XBlocks.
 
 * A map of the XBlock children
 
-==================================
+=================================
 The XBlock SDK JavaScript Runtime
-==================================
+=================================
 
 The file `1.js`_ in the XBlock SDK provides the JavaScript runtime for the
 workbench.
@@ -109,9 +109,9 @@ the handler from the XBlock runtime.
 
     var handlerUrl = runtime.handlerUrl(element, 'vote');
 
-================
+===============
 XBlock Children
-================
+===============
 
 The JavaScript runtime also returns the list of child XBlocks to the XBlock.
 
@@ -130,9 +130,9 @@ children to the XBlock.
 An XBlock uses the ``children`` method when it needs to iterate over an ordered
 list of its child XBlocks.
 
-=================
+================
 XBlock Child Map
-=================
+================
 
 The JavaScript runtime also returns the a map of child XBlocks to the running
 XBlock.
@@ -182,4 +182,4 @@ For more information, see `XBlock Runtime API`_ in the *XBlock API Guide*.
 
 
 .. _XBlock Runtime API: http://edx.readthedocs.io/projects/xblock/en/latest/
-.. include:: ../../../links/links.rst
+.. include:: ../../links.rst

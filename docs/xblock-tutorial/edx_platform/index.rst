@@ -1,8 +1,8 @@
 .. _XBlocks and the edX Platform:
 
-#############################
+############################
 XBlocks and the edX Platform
-#############################
+############################
 
 .. toctree::
    :maxdepth: 2
