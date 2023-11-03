@@ -1,1 +1,1 @@
-.. include:: ../../shared/glossary/glossary.rst
+:doc:`glossary`
