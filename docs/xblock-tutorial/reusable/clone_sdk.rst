@@ -1,8 +1,9 @@
-********************************************
+*****************************************
 Clone the XBlock Software Development Kit
-********************************************
+*****************************************
 
 .. include:: ../reusable/sdk_intro.rst
+.. include:: ../../links.rst
 
 After you :ref:`create and activate the virtual environment <Create and
 Activate the Virtual Environment>`, you clone the `XBlock SDK`_ and install its
