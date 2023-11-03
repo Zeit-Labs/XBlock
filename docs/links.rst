@@ -23,6 +23,7 @@
 .. _Download Python: https://www.python.org/downloads/release/python-386/
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
+.. _Git: https://help.github.com/articles/set-up-git
 
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/
 
