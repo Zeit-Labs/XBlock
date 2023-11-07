@@ -272,4 +272,8 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/en/latest/developers/references/developer_guide/glossary.html",
         None,
     ),
+    "browsers": (
+        f"https://docs.openedx.org/en/latest/developers/references/developer_guide/testing/browsers.html",
+        None,
+    )
 }
