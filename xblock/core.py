@@ -196,7 +196,7 @@ class XBlock(XmlSerializationMixin, HierarchyMixin, ScopedStorageMixin, RuntimeS
     @property
     def usage_key(self):
         """
-        Convenient abbreviation for :py:attr:`.XBlock`.scope_ids.usage_id`.
+        Convenient abbreviation for :py:attr:`.XBlock.scope_ids.usage_id`.
         """
         return self.scope_ids.usage_id
 
