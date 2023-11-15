@@ -193,6 +193,20 @@ class XBlock(XmlSerializationMixin, HierarchyMixin, ScopedStorageMixin, RuntimeS
         # Provide backwards compatibility for external access through _field_data
         super().__init__(runtime=runtime, scope_ids=scope_ids, field_data=field_data, *args, **kwargs)
 
+    @property
+    def usage_key(self):
+        """
+        Convenient abbreviation for :py:attr:`.XBlock`.scope_ids.usage_id`.
+        """
+        return self.scope_ids.usage_id
+
+    @property
+    def context_key(self):
+        """
+        Convenient abbreviation for :py:attr:`.XBlock.scope_ids.usage_id.context_key`.
+        """
+        return self.scope_ids.usage_id.context_key
+
     def render(self, view, context=None):
         """Render `view` with this block's runtime and the supplied `context`"""
         return self.runtime.render(self, view, context)
